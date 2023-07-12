@@ -1,0 +1,17 @@
+body {
+    background-color: #08110f;
+    background-image: url('/images/landingpage-image-2.jpg');
+    background-position: 0%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    height: 100vh;
+}
+
+.text-styling {
+    font-family: 'Montserrat', sans-serif;
+    color: #e3f2ee;
+}

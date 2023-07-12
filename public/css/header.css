@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card-dashboard {
+  transition: transform 0.4s;
+}
+
+.card-dashboard:hover {
+  transform: scale(1.03);
+}
+
+.detail:hover {
+  text-decoration: underline;
+}
+
+.nav-item {
+  transition: transform 0.4s;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
+
+}
+
+.image-container {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: transform 0.3s;
+}
+
+.image-container:hover img {
+  transform: scale(1.2);
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .image-text {
+  opacity: 1;
+}
+
+.image-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.row-image {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.display-3 {
+  transition: transform 0.4s;
+}
+.display-3:hover {
+  transform: translateY(30px);
+}
